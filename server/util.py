@@ -9,7 +9,7 @@ __model = None
 
 absolute_path = os.path.dirname(os.path.abspath(__file__))
 file_path_1 = absolute_path + '/artifacts/columns.json'
-file_path_2 = absolute_path + '/artifacts/bengaluru_house_data_model.pickle'
+file_path_2 = absolute_path + '/artifacts/lucknow_house_data_model.pickle'
 
 
 def get_estimated_price(location,sqft,bhk,bath):
